@@ -321,17 +321,6 @@
 						</div>
 					</div>
 				</div>
-
-				<!-- -->
-
-				<!-- -->
-				<!-- -->
-				<!-- -->
-				<!-- -->
-				<!-- -->
-				<!-- -->
-				<!-- -->
-				<!-- -->
 			</div>
 
 			<div class=" px-0">
@@ -1651,9 +1640,7 @@
 					<UsefulCards />
 
 					project_stats.svelte
-					<ProjectStats />
-
-					chart_revenue_report.svelte
+					<ProjectStats /> --> chart_revenue_report.svelte
 					<ChartRevenueReport />
 
 					active_users_by_device.svelte

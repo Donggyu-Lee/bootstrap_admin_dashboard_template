@@ -1,5 +1,4 @@
 <script>
-	import ApexCharts from 'apexcharts';
 	import { onMount } from 'svelte';
 
 	var optionsSalesOverview = {
@@ -134,7 +133,8 @@
 	};
 
 	onMount(async () => {
-		var chart = new ApexCharts(document.querySelector('#chart_overview'), optionsSalesOverview);
+		const ApexCharts = (await import('apexcharts')).default;
+		let chart = new ApexCharts(document.querySelector('#chart_overview'), optionsSalesOverview);
 		chart.render();
 	});
 </script>

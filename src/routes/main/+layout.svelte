@@ -342,11 +342,11 @@
 									class="list-group-item px-4 py-3 list-group-item-action d-flex align-items-center"
 								>
 									<!--App logo-->
-									<img
+									<!-- <img
 										src="assets/media/brand-logos/atlassian.svg"
 										class="width-30 w-auto flex-shrink-0 me-4"
 										alt=""
-									/>
+									/> -->
 									<div class="flex-grow-1">
 										<h6 class="mb-0">Atlassian</h6>
 										<small>Security and control across Cloud</small>
@@ -359,11 +359,11 @@
 									class="list-group-item px-4 py-3 list-group-item-action d-flex align-items-center"
 								>
 									<!--App logo-->
-									<img
+									<!-- <img
 										src="assets/media/brand-logos/google-webdev.svg"
 										class="width-30 w-auto flex-shrink-0 me-4"
 										alt=""
-									/>
+									/> -->
 									<div class="flex-grow-1">
 										<h6 class="mb-0">Google webdev</h6>
 										<small>Work involved in developing a website</small>
@@ -376,11 +376,11 @@
 									class="list-group-item px-4 py-3 list-group-item-action d-flex align-items-center"
 								>
 									<!--App logo-->
-									<img
+									<!-- <img
 										src="assets/media/brand-logos/slack.svg"
 										class="width-30 w-auto flex-shrink-0 me-4"
 										alt=""
-									/>
+									/> -->
 									<div class="flex-grow-1">
 										<h6 class="mb-0">Slack</h6>
 										<small>Email collaboration software</small>
@@ -483,11 +483,11 @@
 									>
 										<div class="d-block me-3">
 											<div class="avatar avatar-status status-online">
-												<img
+												<!-- <img
 													src="assets/media/avatars/01.jpg"
 													class="img-fluid rounded-circle w-auto"
 													alt=""
-												/>
+												/> -->
 											</div>
 										</div>
 
@@ -506,11 +506,11 @@
 									>
 										<div class="d-block me-3">
 											<div class="avatar avatar-status status-offline">
-												<img
+												<!-- <img
 													src="assets/media/avatars/06.jpg"
 													class="img-fluid rounded-circle w-auto"
 													alt=""
-												/>
+												/> -->
 											</div>
 										</div>
 
@@ -583,7 +583,7 @@
 							<div class="d-flex align-items-center">
 								<!--Avatar with status-->
 								<div class="avatar-status status-online me-sm-2 avatar xs">
-									<img src="assets/media/avatars/01.jpg" class="rounded-circle img-fluid" alt="" />
+									<!-- <img src="assets/media/avatars/01.jpg" class="rounded-circle img-fluid" alt="" /> -->
 								</div>
 								<span class="d-none d-md-inline-block">Noah</span>
 							</div>

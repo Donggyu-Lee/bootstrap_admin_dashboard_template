@@ -1,5 +1,4 @@
 <script>
-	import ApexCharts from 'apexcharts';
 	import { onMount } from 'svelte';
 	import { Tooltip, tooltip } from '@svelte-plugins/tooltips';
 	import { browser } from '$app/environment';
@@ -111,11 +110,10 @@
 		}
 	};
 
-	onMount(() => {
-		if (browser) {
-			const chart = new ApexCharts(document.querySelector('#chart_revenue_report'), optionsRevenue);
-			chart.render();
-		}
+	onMount(async () => {
+		const ApexCharts = (await import('apexcharts')).default;
+		const chart = new ApexCharts(document.querySelector('#chart_revenue_report'), optionsRevenue);
+		chart.render();
 	});
 </script>
 

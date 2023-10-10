@@ -1,5 +1,4 @@
 <script>
-	import ApexCharts from 'apexcharts';
 	import { onMount } from 'svelte';
 
 	var options = {
@@ -53,7 +52,8 @@
 			type: 'gradient',
 			gradient: {
 				shade: 'dark',
-				gradientToColors: [utils.getColor('primary'), utils.getColor('success')],
+				gradientToColors: ['#FFF', '#FFF'],
+				// gradientToColors: [utils.getColor('primary'), utils.getColor('success')],
 				shadeIntensity: 0.1,
 				type: 'horizontal',
 				opacityFrom: 0.95,
@@ -137,7 +137,8 @@
 	};
 
 	onMount(async () => {
-		var chart = new ApexCharts(document.querySelector('#chartOverview'), options);
+		const ApexCharts = (await import('apexcharts')).default;
+		let chart = new ApexCharts(document.querySelector('#chartOverview'), options);
 		chart.render();
 	});
 </script>
