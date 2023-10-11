@@ -1,5 +1,6 @@
 <script>
 	import { onMount } from 'svelte';
+	// @ts-ignore
 	import { Tooltip, tooltip } from '@svelte-plugins/tooltips';
 	import { browser } from '$app/environment';
 
@@ -82,7 +83,7 @@
 		},
 		tooltip: {
 			y: {
-				formatter: function (val) {
+				formatter: function (/** @type {string} */ val) {
 					return val + 'k <span class="fw-normal text-body-secondary"> Active users</span>';
 				}
 			}

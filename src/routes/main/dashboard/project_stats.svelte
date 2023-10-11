@@ -1,6 +1,4 @@
 <script>
-	import { Tooltip, tooltip } from '@svelte-plugins/tooltips';
-
 	import sample_image_1 from '$lib/images/AttnKare_logo.webp';
 	import sample_image_2 from '$lib/images/BlueKare_logo.webp';
 	import sample_image_3 from '$lib/images/profile_photo.jpeg';

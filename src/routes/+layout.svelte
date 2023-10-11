@@ -1,5 +1,6 @@
 <script>
 	import '../lib/css/style.css';
+	import '$lib/fonts/bootstrap-icons/bootstrap-icons.css';
 	// import '../lib/css/style.min.css';
 </script>
 

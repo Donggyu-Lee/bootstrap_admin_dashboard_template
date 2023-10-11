@@ -1,4 +1,5 @@
 <script>
+	// @ts-ignore
 	import { Tooltip, tooltip } from '@svelte-plugins/tooltips';
 
 	import sample_image_1 from '$lib/images/AttnKare_logo.webp';

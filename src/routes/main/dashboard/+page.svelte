@@ -1,4 +1,5 @@
 <script>
+	// @ts-ignore
 	import { Tooltip, tooltip } from '@svelte-plugins/tooltips';
 
 	import sample_image_1 from '$lib/images/AttnKare_logo.webp';
@@ -22,10 +23,20 @@
 	import ActiveUsersByDevice from './active_users_by_device.svelte';
 	import DoubleLineGraph from './double_line_graph.svelte';
 	import DoubleBarGraph from './double_bar_graph.svelte';
-	import { onMount } from 'svelte';
+	import SparklineBar from './sparkline_bar.svelte';
+	import SparklineArea from './sparkline_area.svelte';
+	import SparklineLine from './sparkline_line.svelte';
+	import ChartScatter from './chart_scatter.svelte';
+	import ChartHorizontalDoubleBar from './chart_horizontal_double_bar.svelte';
+	import DoubleLineGraph2 from './double_line_graph2.svelte';
+	import ChartArea from './chart_area.svelte';
+	import ChartMixed from './chart_mixed.svelte';
+	import ChartRadar from './chart_radar.svelte';
+	import ChartPieDonut from './chart_pie_donut.svelte';
+	import ChartRadialBar from './chart_radial_bar.svelte';
 </script>
 
-<div class="container-fluid pb-0 pt-3 px-3 px-lg-6 d-flex flex-column-fluid">
+<div class="container pb-0 pt-3 px-3 px-lg-6 d-flex flex-column-fluid">
 	<div class=" px-0">
 		<div class=" px-0">
 			<div class="d-flex mb-7 align-items-center">
@@ -1640,7 +1651,9 @@
 					<UsefulCards />
 
 					project_stats.svelte
-					<ProjectStats /> --> chart_revenue_report.svelte
+					<ProjectStats />
+
+					chart_revenue_report.svelte
 					<ChartRevenueReport />
 
 					active_users_by_device.svelte
@@ -1651,7 +1664,40 @@
 
 					double_bar_graph.svelte
 					<DoubleBarGraph />
-					<!-- -->
+
+					sparkline_bar.svelte
+					<SparklineBar />
+
+					sparkline_area.svelte
+					<SparklineArea />
+
+					sparkline_line.svelte
+					<SparklineLine />
+
+					chart_scatter.svelte
+					<ChartScatter />
+
+					chart_horizontal_double_bar.svelte
+					<ChartHorizontalDoubleBar />
+
+					double_line_graph2.svelte
+					<DoubleLineGraph2 />
+
+					chart_area.svelte
+					<ChartArea />
+
+					chart_mixed.svelte
+					<ChartMixed />
+
+					chart_radar.svelte
+					<ChartRadar />
+
+					chart_pie_donut.svelte
+					<ChartPieDonut />
+
+					chart_radial_bar.svelte
+					<ChartRadialBar />
+
 					<!-- -->
 					<!-- -->
 					<!-- -->

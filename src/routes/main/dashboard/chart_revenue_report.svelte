@@ -1,5 +1,6 @@
 <script>
 	import { onMount } from 'svelte';
+	// @ts-ignore
 	import { Tooltip, tooltip } from '@svelte-plugins/tooltips';
 	import { browser } from '$app/environment';
 
@@ -60,7 +61,7 @@
 			intersect: false,
 			y: [
 				{
-					formatter: function (y) {
+					formatter: function (/** @type {number} */ y) {
 						if (typeof y !== 'undefined') {
 							return ' $' + y.toFixed(0) + 'K';
 						}
@@ -68,7 +69,7 @@
 					}
 				},
 				{
-					formatter: function (y) {
+					formatter: function (/** @type {number} */ y) {
 						if (typeof y !== 'undefined') {
 							return '$' + y.toFixed(0) + 'K';
 						}

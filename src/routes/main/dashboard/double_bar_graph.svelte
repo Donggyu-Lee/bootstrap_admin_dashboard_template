@@ -38,7 +38,7 @@
 			bar: {
 				borderRadiusApplication: 'around',
 				borderRadiusWhenStacked: 'last',
-				columnWidth: '60%',
+				columnWidth: '30%',
 				distributed: false,
 				borderRadius: 11,
 				rangeBarOverlap: false,
@@ -52,7 +52,7 @@
 			type: 'gradient',
 			gradient: {
 				shade: 'dark',
-				gradientToColors: ['#FFF', '#FFF'],
+				gradientToColors: ['var(--bs-primary)', 'var(--bs-success)'],
 				// gradientToColors: [utils.getColor('primary'), utils.getColor('success')],
 				shadeIntensity: 0.1,
 				type: 'horizontal',
@@ -117,7 +117,7 @@
 			intersect: false,
 			y: [
 				{
-					formatter: function (y) {
+					formatter: function (/** @type {number} */ y) {
 						if (typeof y !== 'undefined') {
 							return ' : ' + y.toFixed(0) + 'h';
 						}
@@ -125,7 +125,7 @@
 					}
 				},
 				{
-					formatter: function (y) {
+					formatter: function (/** @type {number} */ y) {
 						if (typeof y !== 'undefined') {
 							return ' : ' + y.toFixed(0) + ' Tasks';
 						}
